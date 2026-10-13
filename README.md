@@ -95,6 +95,7 @@ Labels describe the source, not a quality ranking or publication status. Dates i
 - [Cloud Services Market Investigation](https://www.gov.uk/cma-cases/cloud-services-market-investigation) - UK Competition and Markets Authority (final decision, 2025). Evidence on cloud pricing, profitability, switching barriers, and licensing. Covers cloud infrastructure broadly. [![Report][report-badge]](#reading-the-labels)
 - [State of Cloud Costs](https://www.datadoghq.com/state-of-cloud-costs/) - Datadog (May 2023 to April 2024 data). Customer billing evidence on GPU spending, idle capacity, data transfer, and commitment discounts. Covers a sample of AWS customers using Datadog, not the whole cloud market. [![Report][report-badge]](#reading-the-labels)
 - [Who Is Buying & Selling AI Compute?](https://ramp.com/data/who-is-buying-and-selling-gpu-compute) - Cara Santone, Ramp (September 2026). Maps compute buyers, provider types, and purchasing terms using customer transactions. Covers Ramp customers that buy SaaS; the provider adoption breakdown excludes hyperscalers because bundled GPU spending is hard to isolate. [![Industry][industry-badge]](#reading-the-labels)
+- [GPU Cloud Economics Explained: The Hidden Truth](https://newsletter.semianalysis.com/p/gpu-cloud-economics-explained-the) - Dylan Patel and Daniel Nishball, SemiAnalysis (December 2023). Explains how hardware purchase costs, financing, and hosting costs shape GPU rental economics. A historical framework whose hardware and pricing assumptions need updating. Free preview; full article requires a subscription. [![Industry][industry-badge]](#reading-the-labels)
 
 ### Data centers and capital investment
 
@@ -122,6 +123,7 @@ Labels describe the source, not a quality ranking or publication status. Dates i
 - [Key Questions on Energy and AI](https://www.iea.org/reports/key-questions-on-energy-and-ai) - International Energy Agency (2026). Updates the 2025 report with new evidence on data-center demand, electricity supply, grid constraints, and affordability. [![Report][report-badge]](#reading-the-labels)
 - [United States Data Center Energy Usage Report: 2025 Update](https://eta-publications.lbl.gov/publications/united-states-data-center-energy-2025) - Smith and coauthors, Berkeley Lab (published June 2026). Builds electricity-demand scenarios from equipment shipments, device energy use, and cooling models. Covers all U.S. data centers; results are model estimates and projections. [![Report][report-badge]](#reading-the-labels)
 - [Queued Up: 2025 Edition](https://emp.lbl.gov/publications/queued-2025-edition-characteristics) - Berkeley Lab (2025; data through 2024). Project data and analysis of proposed power plants and storage seeking grid connections. Useful for studying electricity supply delays; these are not data-center connection queues. [![Data][data-badge]](#reading-the-labels)
+- [AI Datacenter Energy Dilemma: Race for AI Datacenter Space](https://newsletter.semianalysis.com/p/ai-datacenter-energy-dilemma-race) - Patel, Nishball, and Ontiveros, SemiAnalysis (March 2024). Connects accelerator shipments to power demand, grid limits, location choices, and data-center construction. Includes dated forecasts and cost assumptions. Free first half; full article requires a subscription. [![Industry][industry-badge]](#reading-the-labels)
 
 ### Cooling, water, and environmental costs
 
@@ -135,6 +137,7 @@ Labels describe the source, not a quality ranking or publication status. Dates i
 
 - [Trends in the Dollar Training Cost of Machine Learning Systems](https://epoch.ai/publications/trends-in-the-dollar-training-cost-of-machine-learning-systems) - Ben Cottier, Epoch AI (2023). Explains how training-cost estimates are constructed and where their uncertainty comes from. Final-run compute cost is not total development cost. [![Study][study-badge]](#reading-the-labels)
 - [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) - Hoffmann and coauthors (2022). The Chinchilla paper studies how to allocate a fixed training budget between model size and training data. Technical background for cost comparisons. [![Study][study-badge]](#reading-the-labels)
+- [DeepSeek Debates: Chinese Leadership On Cost, True Training Cost, Closed Model Margin Impacts](https://newsletter.semianalysis.com/p/deepseek-debates) - Dylan Patel and coauthors, SemiAnalysis (January 2025). Distinguishes a final training run from broader research, staffing, and infrastructure spending. Hardware and spending figures are industry estimates. Free preview; full article requires a subscription. [![Industry][industry-badge]](#reading-the-labels)
 
 ### Inference costs and serving efficiency
 
@@ -144,6 +147,7 @@ Labels describe the source, not a quality ranking or publication status. Dates i
 - [MLPerf Inference: Datacenter](https://mlcommons.org/benchmarks/inference-datacenter/) - MLCommons. Standardized performance results, with power measurements for participating submissions. Compare matched workloads and quality targets; benchmark speed alone is not a dollar-cost measure. [![Data][data-badge]](#reading-the-labels) [![Living][living-badge]](#reading-the-labels)
 - [Beyond Per-Token Pricing: A Concurrency-Aware Methodology for LLM Infrastructure Cost Estimation](https://arxiv.org/abs/2606.11690) - Chitral Patil (2026 preprint). Benchmarks how request traffic and hardware utilization change serving cost, with a linked cost-measurement tool. Results depend on the tested models, hardware, and traffic patterns. [![Study][study-badge]](#reading-the-labels)
 - [Position: LLM Inference Should Be Evaluated as Energy-to-Token Production](https://arxiv.org/abs/2605.11733) - Liu and coauthors (2026 position paper). A framework connecting useful model output to power, cooling, utilization, and quality constraints. Proposes evaluation measures; listed API prices are not measurements of marginal cost. [![Theory][theory-badge]](#reading-the-labels)
+- [AgentX - InferenceXv3: Does the CUDA Moat Hold Up in Agentic Inferencing?](https://inferencex.semianalysis.com/blog/agentx-inferencexv3-does-cuda-moat) - SemiAnalysis (August 2026). Explains how long conversations, cache reuse, and response speed change serving performance and cost per token. Includes open benchmark data; cost comparisons depend on workload and hardware assumptions. Public article excerpt; full article requires a subscription. [![Industry][industry-badge]](#reading-the-labels)
 
 ## Models and applications
 
@@ -163,6 +167,7 @@ For deployment costs, also see [inference costs and serving efficiency](#inferen
 
 - [Who Owns the Generative AI Platform?](https://a16z.com/who-owns-the-generative-ai-platform/) - Bornstein, Appenzeller, and Casado, Andreessen Horowitz (2023). An early investor view of applications, models, infrastructure, and defensible businesses. Useful as a framework rather than a current market map. [![Industry][industry-badge]](#reading-the-labels)
 - [The Economics of Generative AI: Two Years Later](https://tailwinds.substack.com/p/the-economics-of-generative-ai-two) - Apoorv Agrawal (2026). Estimates revenue and gross-profit distribution across semiconductors, infrastructure, and applications. An investor model with estimated private-company figures, rather than audited industry accounts. [![Industry][industry-badge]](#reading-the-labels)
+- [AI Value Capture - The Shift To Model Labs](https://newsletter.semianalysis.com/p/ai-value-capture-the-shift-to-model) - Daniel Nishball and coauthors, SemiAnalysis (May 2026). Examines how profits are divided among chip suppliers, GPU clouds, inference providers, and model labs. A dated industry argument based on estimated costs and margins. Free preview; full article requires a subscription. [![Industry][industry-badge]](#reading-the-labels)
 
 ### Competition and market power
 
@@ -335,6 +340,7 @@ For the practitioner seminar, see [Economics of the AI Supercycle](#start-here).
 
 - [Economics of AI Literature Atlas](https://www.benkimuva.com/projects/ai-economics-atlas) - A searchable map of economic research on AI, with links to source records. [![Collection][collection-badge]](#reading-the-labels)
 - [Ramp Economics Lab](https://ramp.com/data) - Research archive on business spending, including AI adoption, supplier competition, compute demand, and hiring. Based mainly on Ramp customer data; selected AI readings appear in the relevant sections above. [![Collection][collection-badge]](#reading-the-labels) [![Living][living-badge]](#reading-the-labels)
+- [SemiAnalysis](https://newsletter.semianalysis.com/) - Research archive on chips, GPU clouds, data centers, and AI business economics, with additional tools and models on the [main site](https://semianalysis.com/). Selected articles appear in the relevant sections above. Many full articles and institutional models require paid access. [![Collection][collection-badge]](#reading-the-labels) [![Living][living-badge]](#reading-the-labels)
 
 ## Contributing
 
