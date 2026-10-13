@@ -14,10 +14,10 @@ Help readers understand the costs, markets, adoption, and economic effects of AI
 ## Entry format
 
 ```markdown
-- [Resource title](https://example.org/resource) - Author or organization (year). One or two sentences explaining the economic question and useful content. `Study`
+- [Resource title](https://example.org/resource) - Author or organization (year). One or two sentences explaining the economic question and useful content. [![Study][study-badge]](#reading-the-labels)
 ```
 
-Use the labels defined in the README. A `Study` label does not imply peer review. Identify working papers and report later publication when verified.
+Use the badge references defined in the README, such as `study-badge`, `data-badge`, and `living-badge`. Link each badge to `#reading-the-labels`. Use the labels defined in the README. A `Study` label does not imply peer review. Identify working papers and report later publication when verified.
 
 ## Selection criteria
 
